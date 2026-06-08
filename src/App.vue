@@ -2286,7 +2286,7 @@ function typeOf(id) {
         :episode-appearance="episodeAppearance"
         :assets="assets"
         :analysis="analysis"
-        :storyboard="input.mode === 'narration' ? groupedStoryboard : storyboard"
+        :storyboard="groupedStoryboard"
         :classifications="classifications"
         :video-prompts="videoPrompts"
         :step-meta="stepMeta"
